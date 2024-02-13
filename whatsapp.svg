@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<!-- saved from url=(0111)https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/ -->
+<html lang="es" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths js_active  vc_desktop  vc_transform  vc_transform " style="height: auto; overflow: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="Az520Inasey3TAyqLyojQa8MnmCALSEU29yQFW8dePZ7xQTvSt73pHazLFTK5f7SyLUJSo2uKLesEtEa9aUYcgMAAACPeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
+	
+	
+	<title>Agregar un botón Whatsapp clic-para-chatear con HTML y CSS</title>
+
+	
+			
+						<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://www.espai.es/blog/xmlrpc.php">
+            <link rel="shortcut icon" type="image/x-icon" href="https://www.espai.es/pre-blog/wp-content/uploads/2018/05/favicon.png">
+        <link rel="apple-touch-icon" href="https://www.espai.es/pre-blog/wp-content/uploads/2018/05/favicon.png">
+    	<link href="./whatsapp_files/css" rel="stylesheet" type="text/css">
+<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>                 .fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                      					 min-height: 1px;                         }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div><script type="text/javascript" async="" src="./whatsapp_files/recaptcha__es_419.js.descarga" crossorigin="anonymous" integrity="sha384-3L4MxS7OBG1XYyPnJMEFL+UkjYzkBQFZJH1z6v5ZhWph33vkt2iS2kny2PsL6Jxo"></script><script type="text/javascript" async="" src="./whatsapp_files/analytics.js.descarga"></script><script type="application/javascript">var QodeAjaxUrl = "https://www.espai.es/blog/wp-admin/admin-ajax.php"</script><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="En este tutorial vas a aprender cómo agregar un botón Whatsapp de clic-para-chatear en tu website, de manera muy fácil con HTML y CSS.">
+	<link rel="canonical" href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/">
+	<meta property="og:locale" content="es_ES">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Agregar un botón Whatsapp clic-para-chatear con HTML y CSS">
+	<meta property="og:description" content="En este tutorial vas a aprender cómo agregar un botón Whatsapp de clic-para-chatear en tu website, de manera muy fácil con HTML y CSS.">
+	<meta property="og:url" content="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/">
+	<meta property="og:site_name" content="Blog Escola Espai">
+	<meta property="article:published_time" content="2021-12-04T10:46:54+00:00">
+	<meta property="article:modified_time" content="2021-12-04T12:20:49+00:00">
+	<meta property="og:image" content="https://www.espai.es/blog/wp-content/uploads/2021/12/botonWhatsapp-html-css.png">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="500">
+	<meta property="og:image:type" content="image/png">
+	<meta name="author" content="Stephanie Guerrero">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:label1" content="Escrito por">
+	<meta name="twitter:data1" content="Stephanie Guerrero">
+	<meta name="twitter:label2" content="Tiempo de lectura">
+	<meta name="twitter:data2" content="6 minutos">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/","url":"https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/","name":"Agregar un botón Whatsapp clic-para-chatear con HTML y CSS","isPartOf":{"@id":"https://www.espai.es/blog/#website"},"primaryImageOfPage":{"@id":"https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#primaryimage"},"image":{"@id":"https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#primaryimage"},"thumbnailUrl":"https://www.espai.es/blog/wp-content/uploads/2021/12/botonWhatsapp-html-css.png","datePublished":"2021-12-04T10:46:54+00:00","dateModified":"2021-12-04T12:20:49+00:00","author":{"@id":"https://www.espai.es/blog/#/schema/person/8887c3fae1d9daa1a5c3a8ce82a80ea8"},"description":"En este tutorial vas a aprender cómo agregar un botón Whatsapp de clic-para-chatear en tu website, de manera muy fácil con HTML y CSS.","breadcrumb":{"@id":"https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/"]}]},{"@type":"ImageObject","inLanguage":"es","@id":"https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#primaryimage","url":"https://www.espai.es/blog/wp-content/uploads/2021/12/botonWhatsapp-html-css.png","contentUrl":"https://www.espai.es/blog/wp-content/uploads/2021/12/botonWhatsapp-html-css.png","width":1000,"height":500,"caption":"Agregar boton whatsapp con html y css"},{"@type":"BreadcrumbList","@id":"https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://www.espai.es/blog/"},{"@type":"ListItem","position":2,"name":"Cómo agregar un botón Whatsapp clic-para-chatear a tu website con HTML y CSS"}]},{"@type":"WebSite","@id":"https://www.espai.es/blog/#website","url":"https://www.espai.es/blog/","name":"Blog Escola Espai","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.espai.es/blog/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":"Person","@id":"https://www.espai.es/blog/#/schema/person/8887c3fae1d9daa1a5c3a8ce82a80ea8","name":"Stephanie Guerrero","image":{"@type":"ImageObject","inLanguage":"es","@id":"https://www.espai.es/blog/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/968a8cc502b3a5351564a900db37a968?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/968a8cc502b3a5351564a900db37a968?s=96&d=mm&r=g","caption":"Stephanie Guerrero"},"url":"https://www.espai.es/blog/author/s-guerrero/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="https://secure.gravatar.com/">
+<link rel="alternate" type="application/rss+xml" title="Blog Escola Espai » Feed" href="https://www.espai.es/blog/feed/">
+<link rel="alternate" type="application/rss+xml" title="Blog Escola Espai » Feed de los comentarios" href="https://www.espai.es/blog/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Blog Escola Espai » Comentario Cómo agregar un botón Whatsapp clic-para-chatear a tu website con HTML y CSS del feed" href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/feed/">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.13.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="./whatsapp_files/js" data-cfasync="false" data-wpfc-render="false" type="text/javascript" async=""></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.13.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+															'ga-disable-UA-16775354-1',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+							
+														parameters.send_to = monsterinsights_frontend.ua;
+							__gtagDataLayer(type, name, parameters);
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+															__gtagTracker('config', 'UA-16775354-1', {"forceSSL":"true"} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.espai.es\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script><script src="./whatsapp_files/wp-emoji-release.min.js.descarga" type="text/javascript" defer=""></script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./whatsapp_files/style.min.css" type="text/css" media="all">
+<style id="wp-block-library-inline-css" type="text/css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel="stylesheet" id="mediaelement-css" href="./whatsapp_files/mediaelementplayer-legacy.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="./whatsapp_files/wp-mediaelement.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="./whatsapp_files/classic-themes.min.css" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="./whatsapp_files/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="default_style-css" href="./whatsapp_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="qode_font_awesome-css" href="./whatsapp_files/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="qode_font_elegant-css" href="./whatsapp_files/style(1).min.css" type="text/css" media="all">
+<link rel="stylesheet" id="qode_linea_icons-css" href="./whatsapp_files/style(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="qode_dripicons-css" href="./whatsapp_files/dripicons.css" type="text/css" media="all">
+<link rel="stylesheet" id="stylesheet-css" href="./whatsapp_files/stylesheet.min.css" type="text/css" media="all">
+<style id="stylesheet-inline-css" type="text/css">
+   .postid-12747.disabled_footer_top .footer_top_holder, .postid-12747.disabled_footer_bottom .footer_bottom_holder { display: none;}
+
+
+</style>
+<link rel="stylesheet" id="qode_print-css" href="./whatsapp_files/print.css" type="text/css" media="all">
+<link rel="stylesheet" id="webkit-css" href="./whatsapp_files/webkit_stylesheet.css" type="text/css" media="all">
+<link rel="stylesheet" id="qode_news_style-css" href="./whatsapp_files/news-map.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="responsive-css" href="./whatsapp_files/responsive.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="qode_news_responsive_style-css" href="./whatsapp_files/news-map-responsive.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="style_dynamic-css" href="./whatsapp_files/style_dynamic.css" type="text/css" media="all">
+<link rel="stylesheet" id="style_dynamic_responsive-css" href="./whatsapp_files/style_dynamic_responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="js_composer_front-css" href="./whatsapp_files/js_composer.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="custom_css-css" href="./whatsapp_files/custom_css.css" type="text/css" media="all">
+<link rel="stylesheet" id="childstyle-css" href="./whatsapp_files/style(2).css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="./whatsapp_files/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="./whatsapp_files/frontend-gtag.min.js.descarga" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id="monsterinsights-frontend-script-js-extra">/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/www.espai.es\/blog","hash_tracking":"false","ua":"UA-16775354-1","v4_id":""};/* ]]> */
+</script>
+<script type="text/javascript" src="./whatsapp_files/jquery.min.js.descarga" id="jquery-core-js"></script>
+<script type="text/javascript" src="./whatsapp_files/jquery-migrate.min.js.descarga" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www.espai.es/blog/wp-json/"><link rel="alternate" type="application/json" href="https://www.espai.es/blog/wp-json/wp/v2/posts/12747"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.espai.es/blog/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.espai.es/blog/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.1.1">
+<link rel="shortlink" href="https://www.espai.es/blog/?p=12747">
+<link rel="alternate" type="application/json+oembed" href="https://www.espai.es/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.espai.es%2Fblog%2F2021%2F12%2Fcomo-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.espai.es/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.espai.es%2Fblog%2F2021%2F12%2Fcomo-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css%2F&amp;format=xml">
+	<style>img#wpstats{display:none}</style>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+<link rel="preload" as="style" href="./whatsapp_files/prettify.css"><style type="text/css" id="wp-custom-css">.qode-post-text-main p {
+	margin-bottom: 1rem;
+}
+
+.qode-post-text-main ul, .qode-post-text-main ol {
+	margin: 1rem 0;
+	padding-left: 1.5rem;
+}
+
+/* por algún motivo las imagenes con un caption tienen un tamaño fijo, con esto lo solventamos */
+.qode-post-text-main .wp-caption {
+	width: auto !important;
+	text-align: center;
+}
+.qode-news-single-news-template article .qode-news-like-dislike, .qode-news-single-news-template article .qode-news-like-disliked {
+	color: #292929; display:none;}
+
+/* esto es para que el código fuente dibujado por el addon Code Prettify salga un poco mejor */
+
+pre.prettyprinted {
+    background: #f0f0f0;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    overflow: auto;
+}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><link rel="stylesheet" type="text/css" href="./whatsapp_files/prettify.css"><link rel="stylesheet" id="gravatar-card-css" href="./whatsapp_files/hovercards.min.css"></head>
+
+<body class="post-template-default single single-post postid-12747 single-format-standard qode-news-1.0.4  qode_grid_1400 footer_responsive_adv qode-content-sidebar-responsive qode-child-theme-ver-1.0.0 qode-theme-ver-16.0.1 qode-theme-bridge disabled_footer_top wpb-js-composer js-comp-ver-6.10.0 vc_responsive" itemscope="" itemtype="http://schema.org/WebPage" style="height: auto; overflow: auto;">
+
+
+<div class="wrapper">
+	<div class="wrapper_inner">
+
+    
+    <!-- Google Analytics start -->
+        <!-- Google Analytics end -->
+
+	<header class="has_header_fixed_right scroll_header_top_area stick menu_bottom scrolled_not_transparent with_border page_header sticky sticky_animate">
+	<div class="header_inner clearfix">
+				<div class="header_top_bottom_holder">
+			
+			<div class="header_bottom clearfix" style="">
+								<div class="container">
+					<div class="container_inner clearfix">
+																				<div class="header_inner_left">
+									<div class="mobile_menu_button">
+		<span>
+			<i class="qode_icon_font_awesome fa fa-bars "></i>		</span>
+	</div>
+								<div class="logo_wrapper">
+	<div class="q_logo">
+		<a itemprop="url" href="https://www.espai.es/blog/" style="height: 50px; visibility: visible;">
+             <img itemprop="image" class="normal" src="./whatsapp_files/logo-espai2018-blog.jpg" alt="Logo"> 			 <img itemprop="image" class="light" src="./whatsapp_files/logo-espai2018-blog.jpg" alt="Logo"> 			 <img itemprop="image" class="dark" src="./whatsapp_files/logo-espai2018-blog.jpg" alt="Logo"> 			 <img itemprop="image" class="sticky" src="./whatsapp_files/logo-espai2018-blog.jpg" alt="Logo"> 			 <img itemprop="image" class="mobile" src="./whatsapp_files/logo-espai2018-blog.jpg" alt="Logo"> 					</a>
+	</div>
+	</div>																	<div class="header_fixed_right_area">
+										<div class="textwidget custom-html-widget">	<div class="vc_empty_space" style="height: 23px"><span class="vc_empty_space_inner">
+			<span class="empty_space_image"></span>
+		</span></div>
+
+
+
+<h4 style="display: inline-block;"><a href="tel:931635353">93 163 53 53</a> <br> <span style="color: #ed145b;"><a href="mailto:info@espai.es">info@espai.es</a></span></h4></div><div class="textwidget custom-html-widget"><span style="display: inline-block;"><h5>Síguenos en las redes</h5>
+	<div class="vc_empty_space" style="height: 10px">
+		<span class="vc_empty_space_inner">
+			<span class="empty_space_image"></span>
+		</span>
+	</div>
+
+	<span class="q_social_icon_holder normal_social" data-color="#222222" data-hover-color="#ed145b">
+		<a itemprop="url" href="https://www.instagram.com/espaibarcelona" target="_blank" rel="noopener">
+			<i class="qode_icon_font_awesome fa fa-instagram  simple_social" style="color: #222222;margin: 0 0 0 0;font-size: 20px;"></i>
+		</a>
+	</span>
+	<span class="q_social_icon_holder normal_social" data-color="#222222" data-hover-color="#ed145b">
+		<a itemprop="url" href="https://www.facebook.com/espaiformacio" target="_blank" rel="noopener">
+			<i class="qode_icon_font_awesome fa fa-facebook  simple_social" style="color: #222222;margin: 0 0 0 0;font-size: 20px;color: #222222;"></i>
+		</a>
+	</span>
+	<span class="q_social_icon_holder normal_social" data-color="#222222" data-hover-color="#ed145b">
+		<a itemprop="url" href="https://twitter.com/espaibarcelona" target="_blank" rel="noopener">
+			<i class="qode_icon_font_awesome fa fa-twitter  simple_social" style="color: #222222;margin: 0 0 0 0;font-size: 20px;color: #222222;"></i>
+		</a>
+	</span>
+	<span class="q_social_icon_holder normal_social" data-color="#222222" data-hover-color="#ed145b">
+		<a itemprop="url" href="http://www.linkedin.com/company/1270956?trk=prof-0-ovw-curr_pos" target="_blank" rel="noopener">
+			<i class="qode_icon_font_awesome fa fa-linkedin  simple_social" style="color: #222222;margin: 0 0 0 0;font-size: 20px;color: #222222;"></i>
+		</a>
+	</span>
+	<span class="q_social_icon_holder normal_social" data-color="#222222" data-hover-color="#ed145b">
+		<a itemprop="url" href="http://www.youtube.com/user/ESCOLAESPAI" target="_blank" rel="noopener">
+			<i class="qode_icon_font_awesome fa fa-youtube  simple_social" style="color: #222222;margin: 0 0 0 0;font-size: 20px;color: #222222;"></i>
+		</a>
+	</span>
+</span></div>									</div>
+															</div>
+							<div class="header_menu_bottom">
+								<div class="header_menu_bottom_inner">
+																			<div class="main_menu_header_inner_right_holder">
+																						<nav class="main_menu drop_down">
+												<ul id="menu-menu_superior" class="clearfix"><li id="nav-menu-item-1830" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  narrow"><a href="http://www.espai.es/blog/" class=""><i class="menu_icon blank fa"></i><span>Inicio</span><span class="plus"></span></a></li>
+<li id="nav-menu-item-1823" class="menu-item menu-item-type-taxonomy menu-item-object-category  narrow"><a href="https://www.espai.es/blog/category/diseno-grafico/" class=""><i class="menu_icon blank fa"></i><span>Diseño</span><span class="plus"></span></a></li>
+<li id="nav-menu-item-1825" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent  narrow"><a href="https://www.espai.es/blog/category/diseno-web/" class=""><i class="menu_icon blank fa"></i><span>Web</span><span class="plus"></span></a></li>
+<li id="nav-menu-item-1824" class="menu-item menu-item-type-taxonomy menu-item-object-category  narrow"><a href="https://www.espai.es/blog/category/animacion-3d/" class=""><i class="menu_icon blank fa"></i><span>3D</span><span class="plus"></span></a></li>
+<li id="nav-menu-item-1826" class="menu-item menu-item-type-taxonomy menu-item-object-category  narrow"><a href="https://www.espai.es/blog/category/marketing-online/" class=""><i class="menu_icon blank fa"></i><span>Marketing</span><span class="plus"></span></a></li>
+<li id="nav-menu-item-1828" class="menu-item menu-item-type-taxonomy menu-item-object-category  narrow"><a href="https://www.espai.es/blog/category/edicion-de-video-y-postproduccion/" class=""><i class="menu_icon blank fa"></i><span>Video</span><span class="plus"></span></a></li>
+<li id="nav-menu-item-1821" class="menu-item menu-item-type-taxonomy menu-item-object-category  narrow"><a href="https://www.espai.es/blog/category/programacion/" class=""><i class="menu_icon blank fa"></i><span>Programación</span><span class="plus"></span></a></li>
+<li id="nav-menu-item-1820" class="menu-item menu-item-type-taxonomy menu-item-object-category  narrow"><a href="https://www.espai.es/blog/category/sin-categoria/" class=""><i class="menu_icon blank fa"></i><span>Escola Espai</span><span class="plus"></span></a></li>
+</ul>											</nav>
+											<div class="header_inner_right">
+												<div class="side_menu_button_wrapper right">
+																																							<div class="side_menu_button">
+																																																							</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<nav class="mobile_menu">
+	<ul id="menu-menu_superior-1" class=""><li id="mobile-menu-item-1830" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home "><a href="http://www.espai.es/blog/" class=""><span>Inicio</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-1823" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.espai.es/blog/category/diseno-grafico/" class=""><span>Diseño</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-1825" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent "><a href="https://www.espai.es/blog/category/diseno-web/" class=""><span>Web</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-1824" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.espai.es/blog/category/animacion-3d/" class=""><span>3D</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-1826" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.espai.es/blog/category/marketing-online/" class=""><span>Marketing</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-1828" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.espai.es/blog/category/edicion-de-video-y-postproduccion/" class=""><span>Video</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-1821" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.espai.es/blog/category/programacion/" class=""><span>Programación</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+<li id="mobile-menu-item-1820" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://www.espai.es/blog/category/sin-categoria/" class=""><span>Escola Espai</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+</ul></nav>																						</div>
+					</div>
+									</div>
+			</div>
+		</div>
+
+</header>	<a id="back_to_top" href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#" class="on">
+        <span class="fa-stack">
+            <i class="qode_icon_font_awesome fa fa-arrow-up "></i>        </span>
+	</a>
+	
+	
+    
+    
+    <div class="content " style="padding-top: 160px; min-height: 473px;">
+        <div class="content_inner  ">
+    	<div class="title_outer title_without_animation" data-height="269">
+		<div class="title title_size_medium  position_left " style="height:269px;">
+			<div class="image not_responsive"></div>
+										<div class="title_holder" style="padding-top:169px;height:100px;">
+					<div class="container">
+						<div class="container_inner clearfix">
+								<div class="title_subtitle_holder">
+                                                                																		<h1><span>Cómo agregar un botón Whatsapp clic-para-chatear a tu website con HTML y CSS</span></h1>
+																	
+																										                                                            </div>
+						</div>
+					</div>
+				</div>
+								</div>
+			</div>
+                <div class="container">
+					                            <div class="container_inner default_template_holder">
+																							                                        <div class="two_columns_75_25 background_color_sidebar grid2 clearfix">
+                                            <div class="column1">
+												                                                <div class="column_inner">
+													<div class="qode-news-single-news-template qode-news-holder">
+<article id="post-12747" class="post-12747 post type-post status-publish format-standard has-post-thumbnail hentry category-diseno-web">
+    <div class="qode-post-content">
+        <div class="qode-post-heading">
+            
+	<div class="qode-post-image">
+									<img width="1000" height="500" src="./whatsapp_files/botonWhatsapp-html-css.png" class="attachment-full size-full wp-post-image" alt="Agregar boton whatsapp con html y css" decoding="async" srcset="https://www.espai.es/blog/wp-content/uploads/2021/12/botonWhatsapp-html-css.png 1000w, https://www.espai.es/blog/wp-content/uploads/2021/12/botonWhatsapp-html-css-300x150.png 300w, https://www.espai.es/blog/wp-content/uploads/2021/12/botonWhatsapp-html-css-768x384.png 768w, https://www.espai.es/blog/wp-content/uploads/2021/12/botonWhatsapp-html-css-700x350.png 700w" sizes="(max-width: 1000px) 100vw, 1000px">							
+	</div>
+        </div>
+        <div class="qode-post-text">
+            <div class="qode-post-text-inner">
+                <div class="qode-post-info-top">
+					<div class="qode-post-info-category">
+	<a href="https://www.espai.es/blog/category/diseno-web/"><span class="qode-category-name">Diseño Web </span></a></div>                </div>
+                <div class="qode-post-text-main">
+					
+<h1 itemprop="name" class="entry-title qode-post-title">
+            Cómo agregar un botón Whatsapp clic-para-chatear a tu website con HTML y CSS    </h1>                    <div class="qode-post-info-after-title">
+						<div itemprop="dateCreated" class="qode-post-info-date entry-date published updated">
+            <a itemprop="url" href="https://www.espai.es/blog/2021/12/">
+            <i class="dripicons-alarm"></i>
+    	04/12/2021        </a>
+    <meta itemprop="interactionCount" content="UserComments: 4">
+</div>						<div class="qode-post-info-author">
+    <i class="dripicons-user"></i>
+    <span class="qode-post-info-author-text">
+        por    </span>
+    <a itemprop="author" class="qode-post-info-author-link" href="https://www.espai.es/blog/author/s-guerrero/">
+        Stephanie Guerrero    </a>
+</div>							<div class="qode-post-info-comments-holder">
+        <i class="dripicons-message"></i>
+		<a itemprop="url" class="qode-post-info-comments" href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#comments" target="_self">
+			4 comentarios		</a>
+	</div>
+                        <div class="qode-post-info-after-title-share-right">
+                                <div class="qode-blog-share">
+        <h5 class="qode-share-title">Compartir:</h5>
+        <div class="social_share_list_holder"><span>Share on: </span><ul><li class="facebook_share"><a title="Share on Facebook" href="javascript:void(0)" onclick="window.open(&#39;http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.espai.es%2Fblog%2F2021%2F12%2Fcomo-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css%2F&#39;, &#39;sharer&#39;, &#39;toolbar=0,status=0,width=620,height=280&#39;);"><i class="fa fa-facebook"></i></a></li><li class="twitter_share"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#" title="Share on Twitter" onclick="popUp=window.open(&#39;http://twitter.com/home?status=En+otro+articulo+hemos+visto+https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/ via @espaibarcelona &#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=400&#39;);popUp.focus();return false;"><i class="fa fa-twitter"></i></a></li><li class="linkedin_share"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#" class="Share on LinkedIn" onclick="popUp=window.open(&#39;http://linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.espai.es%2Fblog%2F2021%2F12%2Fcomo-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css%2F&amp;title=C%C3%B3mo+agregar+un+bot%C3%B3n+Whatsapp+clic-para-chatear+a+tu+website+con+HTML+y+CSS&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=400&#39;);popUp.focus();return false"><i class="fa fa-linkedin"></i></a></li><li class="pinterest_share"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#" title="Share on Pinterest" onclick="popUp=window.open(&#39;http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.espai.es%2Fblog%2F2021%2F12%2Fcomo-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css%2F&amp;description=Cómo agregar un botón Whatsapp clic-para-chatear a tu website con HTML y CSS&amp;media=https%3A%2F%2Fwww.espai.es%2Fblog%2Fwp-content%2Fuploads%2F2021%2F12%2FbotonWhatsapp-html-css.png&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=400&#39;);popUp.focus();return false"><i class="fa fa-pinterest"></i></a></li></ul></div>    </div>
+                        </div>
+                                            </div>
+                    <p>En otro articulo hemos visto como<a href="https://www.espai.es/blog/2019/07/redes-sociales-crea-tus-propios-botones-de-compartir-en-html/"> crear botones de compartir en redes sociales con HTML</a>,&nbsp; y en este vamos a ver como agregar un <strong>botón Whatsapp</strong> para llamadas o chat a tu website.</p>
+<p>Hay una solución muy fácil que nos permite integrar un enlace de <strong>clic-para-chatear</strong> en cualquier parte de nuestro sitio web y la vamos a ver paso a paso.</p>
+<p>&nbsp;</p>
+<article style="padding: 10px;border-radius: 5px;background-color: #e1e1e1">
+<h3><strong>Tabla de Contenidos</strong></h3>
+<ol>
+<li><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#why">Utilidad de agregar un botón Whatsapp clic-para-chatear a tu website </a></li>
+<li><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#html">Generar el código HTML del botón</a></li>
+<li><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#css">Generar el código CSS del botón</a></li>
+<li><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#link">Agregar un vínculo personalizado de Whatsapp</a></li>
+</ol>
+</article>
+<p>&nbsp;</p>
+<h2 id="why">¿Porque es útil agregar un botón de Whatsapp a tu website?</h2>
+<p>Si encontramos tantos website con este enlace de clic-para-chatear es porque añadir un botón Whatsapp a tu website, permitirá a tus usuarios y/o clientes entrar rápidamente en contacto contigo.<br>
+Además España es uno de los países donde se utiliza más esta aplicación. Según datos de eMarketer, Whatsapp cuenta con mas de 32 millones de usuarios en el país en 2021.</p>
+<p><a href="https://www.emarketer.com/chart/249914/whatsapp-users-select-countries-2020-2021-millions" target="_blank" rel="attachment noopener wp-att-12752"><img decoding="async" loading="lazy" class=" wp-image-12752 aligncenter" src="./whatsapp_files/usuarios-whatsapp-por-paises-2020-2021.jpg" alt="" width="365" height="420" srcset="https://www.espai.es/blog/wp-content/uploads/2021/12/usuarios-whatsapp-por-paises-2020-2021.jpg 638w, https://www.espai.es/blog/wp-content/uploads/2021/12/usuarios-whatsapp-por-paises-2020-2021-261x300.jpg 261w" sizes="(max-width: 365px) 100vw, 365px"></a></p>
+<p>&nbsp;</p>
+<h2 id="html">Generar el código HTML del botón</h2>
+<h3>1-Elegir un icono Whatsapp como imagen</h3>
+<p>Como os decía, hay una solución muy fácil para integrar este enlace clic-para-chatear, y para poder empezar vamos a necesitar un icono de Whatsapp. Podéis encontrar muy fácilmente en internet todo tipo de iconos:</p>
+<p>– <strong>En el repositorio de </strong><a href="https://fontawesome.com/" target="_blank" rel="noopener"><strong>Fontawesome:</strong></a>&nbsp;descargando una versión SVG del icono o copiando el código HTML. Ese ultimo requiere de instalar los archivos del repositorio en su proyecto o de poner un script con un kit creado dentro de un perfil en Fontawesome en el &lt;head&gt; de nuestro documento html.</p>
+<pre style="border-radius: 5px; background: rgb(225, 225, 225);" class=" prettyprinted"><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"https://kit.fontawesome.com/808781cc1c.js"</span><span class="pln"> </span><span class="atn">crossorigin</span><span class="pun">=</span><span class="atv">"anonymous"</span><span class="tag">&gt;&lt;/script&gt;</span><span class="pln">
+</span></pre>
+<p>Si descargamos, la versión SVG, tendremos el código siguiente:</p>
+<pre style="border-radius: 5px; background: rgb(225, 225, 225);" class=" prettyprinted"><span class="tag">&lt;svg</span><span class="pln"> </span><span class="atn">aria-hidden</span><span class="pun">=</span><span class="atv">"true"</span><span class="pln"> </span><span class="atn">focusable</span><span class="pun">=</span><span class="atv">"false"</span><span class="pln"> </span><span class="atn">data-prefix</span><span class="pun">=</span><span class="atv">"fab"</span><span class="pln"> </span><span class="atn">data-icon</span><span class="pun">=</span><span class="atv">"whatsapp"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"svg-inline--fa fa-whatsapp fa-w-14"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"img"</span><span class="pln"> </span><span class="atn">xmlns</span><span class="pun">=</span><span class="atv">"http://www.w3.org/2000/svg"</span><span class="pln"> </span><span class="atn">viewBox</span><span class="pun">=</span><span class="atv">"0 0 448 512"</span><span class="tag">&gt;&lt;path</span><span class="pln"> </span><span class="atn">fill</span><span class="pun">=</span><span class="atv">"currentColor"</span><span class="pln"> </span><span class="atn">d</span><span class="pun">=</span><span class="atv">"M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"</span><span class="tag">&gt;&lt;/path&gt;&lt;/svg&gt;</span></pre>
+<p>&nbsp;</p>
+<p>– En el repositorio de iconos de una plataforma como <strong>Flaticon:&nbsp;</strong> en este caso podréis descargar una versión png o svg del icono.</p>
+<p><a href="./whatsapp_files/icono-whatsapp-flaticon.jpg" rel="attachment wp-att-12758"><img decoding="async" loading="lazy" class="size-full wp-image-12758 aligncenter" src="./whatsapp_files/icono-whatsapp-flaticon.jpg" alt="icono-whatsapp-flaticon" width="947" height="269" srcset="https://www.espai.es/blog/wp-content/uploads/2021/12/icono-whatsapp-flaticon.jpg 947w, https://www.espai.es/blog/wp-content/uploads/2021/12/icono-whatsapp-flaticon-300x85.jpg 300w, https://www.espai.es/blog/wp-content/uploads/2021/12/icono-whatsapp-flaticon-768x218.jpg 768w, https://www.espai.es/blog/wp-content/uploads/2021/12/icono-whatsapp-flaticon-700x199.jpg 700w" sizes="(max-width: 947px) 100vw, 947px"></a></p>
+<p>Para este tutorial, utilizare la versión SVG de fontawesome para poder con CSS ponerle el estilo que quiero.</p>
+<p>&nbsp;</p>
+<h3>2-Crear los elementos HTML</h3>
+<p>Creamos un div con un enlace al cual del momento no pondremos valor a su atributo href, que englobara la imagen del icono de whatsapp.</p>
+<pre style="border-radius: 5px; background: rgb(225, 225, 225);" class=" prettyprinted"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"whatsapp"</span><span class="tag">&gt;</span><span class="pln">
+   </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="pln"> </span><span class="atn">target</span><span class="pun">=</span><span class="atv">"_blank"</span><span class="tag">&gt;</span><span class="pln">
+     </span><span class="tag">&lt;svg</span><span class="pln"> </span><span class="atn">aria-hidden</span><span class="pun">=</span><span class="atv">"true"</span><span class="pln"> </span><span class="atn">focusable</span><span class="pun">=</span><span class="atv">"false"</span><span class="pln"> </span><span class="atn">data-prefix</span><span class="pun">=</span><span class="atv">"fab"</span><span class="pln"> </span><span class="atn">data-icon</span><span class="pun">=</span><span class="atv">"whatsapp"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"svg-inline--fa fa-whatsapp fa-w-14"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"img"</span><span class="pln"> </span><span class="atn">xmlns</span><span class="pun">=</span><span class="atv">"http://www.w3.org/2000/svg"</span><span class="pln"> </span><span class="atn">viewBox</span><span class="pun">=</span><span class="atv">"0 0 448 512"</span><span class="tag">&gt;&lt;path</span><span class="pln"> </span><span class="atn">fill</span><span class="pun">=</span><span class="atv">"currentColor"</span><span class="pln"> </span><span class="atn">d</span><span class="pun">=</span><span class="atv">"M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"</span><span class="tag">&gt;&lt;/path&gt;&lt;/svg&gt;</span><span class="pln">
+   </span><span class="tag">&lt;/a&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span></pre>
+<p>En el flujo del código HTML, lo podemos donde queramos. Yo en este caso, lo pondré antes del footer.</p>
+<p>&nbsp;</p>
+<h2 id="css">Generar el código CSS del botón de Whatsapp</h2>
+<p>El código CSS, va a depender de como queremos integrar el botón dentro de nuestro diseño. Yo lo voy a poner como un botón flotante (siempre visible) abajo a la derecha de mi página.</p>
+<p>Para eso, voy a poner mi elemento con id «Whatsapp» en position fixed con coordenadas de bottom y right:</p>
+<pre style="border-radius: 5px; background: rgb(225, 225, 225);" class=" prettyprinted"><span class="com">#whatsapp {</span><span class="pln">
+   position</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">fixed</span><span class="pun">;</span><span class="pln">
+   bottom</span><span class="pun">:</span><span class="pln"> </span><span class="lit">20px</span><span class="pun">;</span><span class="pln">
+   right</span><span class="pun">:</span><span class="lit">20px</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></pre>
+<p>Una vez, eso hecho, podemos poner estilo a nuestro icono. Primero le daré el tamaño que me interesa al SVG y le pondré una sombra para hacerlo resaltar de las otros elementos:</p>
+<pre style="border-radius: 5px; background: rgb(225, 225, 225);" class=" prettyprinted"><span class="pln">svg </span><span class="pun">{</span><span class="pln">
+   width</span><span class="pun">:</span><span class="pln"> </span><span class="lit">80px</span><span class="pun">;</span><span class="pln">
+   filter</span><span class="pun">:</span><span class="pln"> drop</span><span class="pun">-</span><span class="pln">shadow</span><span class="pun">(</span><span class="lit">0</span><span class="pln"> </span><span class="lit">1px</span><span class="pln"> </span><span class="lit">4px</span><span class="pln"> rgba</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="lit">0</span><span class="pun">,</span><span class="lit">0</span><span class="pun">,.</span><span class="lit">4</span><span class="pun">));</span><span class="pln">
+</span><span class="pun">}</span></pre>
+<p>Modifiqué el SVG base de Fontawesome para poder tener un icono redondo, os dejo el código aquí:</p>
+<pre style="border-radius: 5px; background: rgb(225, 225, 225);" class=" prettyprinted"><span class="tag">&lt;svg</span><span class="pln"> </span><span class="atn">width</span><span class="pun">=</span><span class="atv">"80"</span><span class="pln"> </span><span class="atn">height</span><span class="pun">=</span><span class="atv">"80"</span><span class="pln"> </span><span class="atn">xmlns</span><span class="pun">=</span><span class="atv">"http://www.w3.org/2000/svg"</span><span class="pln"> </span><span class="atn">xmlns:svg</span><span class="pun">=</span><span class="atv">"http://www.w3.org/2000/svg"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="com">&lt;!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit--&gt;</span><span class="pln">
+</span><span class="tag">&lt;g</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"layer"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;title&gt;</span><span class="pln">Layer 1</span><span class="tag">&lt;/title&gt;</span><span class="pln">
+</span><span class="tag">&lt;circle</span><span class="pln"> </span><span class="atn">cx</span><span class="pun">=</span><span class="atv">"40"</span><span class="pln"> </span><span class="atn">cy</span><span class="pun">=</span><span class="atv">"40"</span><span class="pln"> </span><span class="atn">fill</span><span class="pun">=</span><span class="atv">"#fff"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"svg_1"</span><span class="pln"> </span><span class="atn">r</span><span class="pun">=</span><span class="atv">"38"</span><span class="pln"> </span><span class="atn">stroke</span><span class="pun">=</span><span class="atv">"#000000"</span><span class="pln"> </span><span class="atn">stroke-width</span><span class="pun">=</span><span class="atv">"0"</span><span class="tag">/&gt;</span><span class="pln">
+</span><span class="tag">&lt;path</span><span class="pln"> </span><span class="atn">d</span><span class="pun">=</span><span class="atv">"m57.81072,21.975c-4.48928,-4.5 -10.46786,-6.975 -16.82142,-6.975c-13.11429,0 -23.78571,10.67143 -23.78571,23.78571c0,4.18928 1.09286,8.28215 3.17143,11.89286l-3.375,12.32142l12.61072,-3.31072c3.47143,1.89642 7.38215,2.89286 11.36786,2.89286l0.01072,0c13.10358,0 24.01072,-10.67143 24.01072,-23.78571c0,-6.35357 -2.7,-12.32142 -7.18928,-16.82142l-0.00001,-0.00001l-0.00001,0l-0.00002,0.00001zm-16.82142,36.6c-3.55714,0 -7.03928,-0.95357 -10.07143,-2.75357l-0.71785,-0.42857l-7.47858,1.96072l1.99286,-7.29642l-0.47143,-0.75c-1.98215,-3.15 -3.02142,-6.78215 -3.02142,-10.52142c0,-10.89642 8.87143,-19.76786 19.77858,-19.76786c5.28215,0 10.24286,2.05714 13.97143,5.79642c3.72857,3.73928 6.02142,8.7 6.01072,13.98215c0,10.90714 -9.09642,19.77858 -19.99286,19.77858l0,-0.00002l-0.00001,0l-0.00001,-0.00001zm10.84286,-14.80714c-0.58928,-0.3 -3.51429,-1.73572 -4.06072,-1.92857c-0.54643,-0.20358 -0.94286,-0.3 -1.33928,0.3c-0.39642,0.6 -1.53214,1.92857 -1.88571,2.33572c-0.34286,0.39642 -0.69642,0.45 -1.28571,0.15c-3.49286,-1.74643 -5.78571,-3.11785 -8.08928,-7.07143c-0.61072,-1.05 0.61072,-0.975 1.74643,-3.24643c0.19286,-0.39642 0.09642,-0.73928 -0.05357,-1.03928c-0.15,-0.3 -1.33928,-3.225 -1.83214,-4.41429c-0.48215,-1.15714 -0.975,-0.99642 -1.33928,-1.01785c-0.34286,-0.02142 -0.73928,-0.02142 -1.13572,-0.02142c-0.39642,0 -1.03928,0.15 -1.58571,0.73928c-0.54643,0.6 -2.07858,2.03572 -2.07858,4.96072c0,2.925 2.13214,5.75357 2.42142,6.15c0.3,0.39642 4.18928,6.39642 10.15714,8.97858c3.77143,1.62857 5.25,1.76786 7.13572,1.48928c1.14643,-0.17143 3.51429,-1.43572 4.00714,-2.82857c0.49286,-1.39286 0.49286,-2.58215 0.34286,-2.82857c-0.13928,-0.26786 -0.53572,-0.41785 -1.125,-0.70714l-0.00001,-0.00001l0.00002,-0.00001l-0.00002,-0.00001z"</span><span class="pln"> </span><span class="atn">fill</span><span class="pun">=</span><span class="atv">"currentColor"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"svg_2"</span><span class="tag">/&gt;</span><span class="pln">
+</span><span class="tag">&lt;/g&gt;</span><span class="pln">
+</span><span class="tag">&lt;/svg&gt;</span></pre>
+<p>Ahora le pondré el color corporativo de Whatsapp Green Light. Como estamos trabajando con un SVG, utilizaré una propiedad de cambio de estilo que no será «background-color» pero «fill». Dentro del SVG, tengo dos elementos a los cuales voy a aplicar un cambio de estilo, <strong>&lt;circle&gt;</strong> que va a tener el fondo verde, y <strong>&lt;path&gt;</strong> que va a tener un fondo blanco:</p>
+<pre style="border-radius: 5px; background: rgb(225, 225, 225);" class=" prettyprinted"><span class="pln">circle </span><span class="pun">{</span><span class="pln">
+   fill</span><span class="pun">:</span><span class="pln"> </span><span class="com">#25d366;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+path </span><span class="pun">{</span><span class="pln">
+   fill</span><span class="pun">:</span><span class="pln"> </span><span class="com">#fff;</span><span class="pln">
+</span><span class="pun">}</span></pre>
+<p>&nbsp;</p>
+<h2 id="link">Agregar un vínculo personalizado de Whatsapp</h2>
+<p>Cuando queremos añadir un enlace con un número de teléfono en HTML, utilizamos el atributo href con el valor tel: seguido del prefijo de país y del número de teléfono sin espacio:&nbsp; href=»tel:+47……».</p>
+<h3>Crear tu propio enlace:</h3>
+<p>Utilice el enlace <strong>https://api.whatsapp.com/send/?phone=&lt;número&gt;,&nbsp;</strong>&lt;número&gt; siendo el número de teléfono en formato internacional, a decir con el prefijo de país, pero sin el + que aparece en general delante. Lo que daría lo siguiente para un número de teléfono español :<br>
+<span style="background: #e1e1e1">https://api.whatsapp.com/send/?phone=34650474…</span></p>
+<h3>Crear tu propio enlace con un mensaje predefinido:</h3>
+<p>El mensaje predefinido aparecerá automáticamente en el campo de texto de una discusión.&nbsp; Para añadirlo, hay que utilizar el enlace anterior más el parámetro <strong>&amp;text=</strong> más el mensaje en forma de URL. A decir, que los espacios deberán ser remplazados por los <strong>caracteres %20.</strong></p>
+<p><span style="background: #e1e1e1">https://api.whatsapp.com/send?phone=346….302&amp;text=Hola%20,te%20asesoramos%20por<br>
+%20whatsapp%20gestiona%20tu%20compra%20por%20este%20canal.</span></p>
+<p>&nbsp;</p>
+<p>Podemos comprobar el enlace para verificar que hemos agregado de manera correcta el <strong>botón de Whatsapp</strong>. Y ya estamos<strong> listos para chatear</strong> directamente con nuestros usuarios o clientes.</p>
+<p>Podéis encontrar el código completo de este tutorial con un bonus, haciendo clic en este enlace de <a href="https://codepen.io/steph_itw/pen/yLzYzEo" target="_blank" rel="noopener">copen</a>. Cualquier duda me podéis dejar un comentario.</p>
+                                    </div>
+                <div class="qode-post-info-bottom clearfix">
+                    <div class="qode-post-info-bottom-left">
+						    <div class="qode-blog-share">
+        <h5 class="qode-share-title">Compartir:</h5>
+        <div class="social_share_list_holder"><span>Share on: </span><ul><li class="facebook_share"><a title="Share on Facebook" href="javascript:void(0)" onclick="window.open(&#39;http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.espai.es%2Fblog%2F2021%2F12%2Fcomo-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css%2F&#39;, &#39;sharer&#39;, &#39;toolbar=0,status=0,width=620,height=280&#39;);"><i class="fa fa-facebook"></i></a></li><li class="twitter_share"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#" title="Share on Twitter" onclick="popUp=window.open(&#39;http://twitter.com/home?status=En+otro+articulo+hemos+visto+https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/ via @espaibarcelona &#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=400&#39;);popUp.focus();return false;"><i class="fa fa-twitter"></i></a></li><li class="linkedin_share"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#" class="Share on LinkedIn" onclick="popUp=window.open(&#39;http://linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.espai.es%2Fblog%2F2021%2F12%2Fcomo-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css%2F&amp;title=C%C3%B3mo+agregar+un+bot%C3%B3n+Whatsapp+clic-para-chatear+a+tu+website+con+HTML+y+CSS&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=400&#39;);popUp.focus();return false"><i class="fa fa-linkedin"></i></a></li><li class="pinterest_share"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#" title="Share on Pinterest" onclick="popUp=window.open(&#39;http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.espai.es%2Fblog%2F2021%2F12%2Fcomo-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css%2F&amp;description=Cómo agregar un botón Whatsapp clic-para-chatear a tu website con HTML y CSS&amp;media=https%3A%2F%2Fwww.espai.es%2Fblog%2Fwp-content%2Fuploads%2F2021%2F12%2FbotonWhatsapp-html-css.png&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=400&#39;);popUp.focus();return false"><i class="fa fa-pinterest"></i></a></li></ul></div>    </div>
+                    </div>
+                    <div class="qode-post-info-bottom-right">
+						    <div class="qode-blog-like">
+        <div class="qode-news-like-dislike" id="qode-like-12747-933"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#" class="qode-news-like arrow_up"></a><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#" class="qode-news-dislike arrow_down"></a><span>0</span></div>    </div>
+                    </div>
+                </div>
+                <div class="qode-post-info-below">
+					                </div>
+            </div>
+        </div>
+    </div>
+</article>	<div class="qode-blog-single-navigation">
+		<div class="qode-blog-single-navigation-inner clearfix">
+									<a itemprop="url" class="qode-blog-single-prev" href="https://www.espai.es/blog/2021/11/es2019-novedades-de-javascript-en-2019/">
+							<span class="qode-blog-single-nav-mark arrow_carrot-left"></span>							<span class="qode-blog-single-nav-label">Entrada anterior</span>						</a>
+											<a itemprop="url" class="qode-blog-single-next" href="https://www.espai.es/blog/2021/12/crear-un-tema-de-wordpress-desde-cero-sin-saber-php/">
+							<span class="qode-blog-single-nav-mark arrow_carrot-right"></span>							<span class="qode-blog-single-nav-label">Entrada siguiente</span>						</a>
+							</div>
+	</div>
+	<div class="qode-comment-holder clearfix" id="comments">
+					<div class="qode-comment-holder-inner">
+				<div class="qode-comments-title">
+					<h4>4Comentarios</h4>
+				</div>
+				<div class="qode-comments">
+					<ul class="qode-comment-list">
+						
+		<li>
+		<div class="qode-comment clearfix">
+							<div class="qode-comment-image"> <img alt="" src="./whatsapp_files/c2b06d7094eaf47ea192aecb098f61dd.png" class="avatar avatar-96 photo wp-hovercard-attachment grav-hashed grav-hijack" height="96" width="96"> </div>
+						<div class="qode-comment-text">
+				<div class="qode-edit-reply-holder">
+					<a rel="nofollow" class="comment-reply-link" href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#comment-17344" data-commentid="17344" data-postid="12747" data-belowelement="comment-17344" data-respondelement="respond" data-replyto="Responder a Juan" aria-label="Responder a Juan">reply</a>				</div>
+				<div class="qode-comment-info">
+					<h5 class="qode-comment-name vcard">
+												Juan					</h5>
+					<div class="qode-comment-date">09/08/2023</div>
+				</div>
+									<div class="qode-text-holder" id="comment-17344">
+						<p>Hola, super ¿Tendrás alguna actualización?</p>
+					</div>
+				
+			</div>
+		</div>
+				</li><!-- #comment-## -->
+
+		<li>
+		<div class="qode-comment clearfix">
+							<div class="qode-comment-image"> <img alt="" src="./whatsapp_files/961a6459ab4f7a2e05db5407ab455262.png" class="avatar avatar-96 photo wp-hovercard-attachment grav-hashed grav-hijack" height="96" width="96"> </div>
+						<div class="qode-comment-text">
+				<div class="qode-edit-reply-holder">
+					<a rel="nofollow" class="comment-reply-link" href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#comment-17132" data-commentid="17132" data-postid="12747" data-belowelement="comment-17132" data-respondelement="respond" data-replyto="Responder a Alain" aria-label="Responder a Alain">reply</a>				</div>
+				<div class="qode-comment-info">
+					<h5 class="qode-comment-name vcard">
+												Alain					</h5>
+					<div class="qode-comment-date">16/04/2023</div>
+				</div>
+									<div class="qode-text-holder" id="comment-17132">
+						<p>Buen aporte gracias, me solucionó el problema</p>
+					</div>
+				
+			</div>
+		</div>
+				<ul class="children">
+
+		<li>
+		<div class="qode-comment clearfix qode-post-author-comment">
+							<div class="qode-comment-image"> <img alt="" src="./whatsapp_files/968a8cc502b3a5351564a900db37a968.png" class="avatar avatar-96 photo wp-hovercard-attachment grav-hashed grav-hijack" height="96" width="96"> </div>
+						<div class="qode-comment-text">
+				<div class="qode-edit-reply-holder">
+					<a rel="nofollow" class="comment-reply-link" href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#comment-17138" data-commentid="17138" data-postid="12747" data-belowelement="comment-17138" data-respondelement="respond" data-replyto="Responder a Stephanie Guerrero" aria-label="Responder a Stephanie Guerrero">reply</a>				</div>
+				<div class="qode-comment-info">
+					<h5 class="qode-comment-name vcard">
+												Stephanie Guerrero					</h5>
+					<div class="qode-comment-date">20/04/2023</div>
+				</div>
+									<div class="qode-text-holder" id="comment-17138">
+						<p>Gracias a ti por tu comentario!</p>
+					</div>
+				
+			</div>
+		</div>
+				</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+		<li>
+		<div class="qode-comment clearfix">
+							<div class="qode-comment-image"> <img alt="" src="./whatsapp_files/e9b0dee9eb92434129364ca1df590f3c.png" class="avatar avatar-96 photo wp-hovercard-attachment grav-hashed grav-hijack" height="96" width="96"> </div>
+						<div class="qode-comment-text">
+				<div class="qode-edit-reply-holder">
+					<a rel="nofollow" class="comment-reply-link" href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#comment-16762" data-commentid="16762" data-postid="12747" data-belowelement="comment-16762" data-respondelement="respond" data-replyto="Responder a Daniel" aria-label="Responder a Daniel">reply</a>				</div>
+				<div class="qode-comment-info">
+					<h5 class="qode-comment-name vcard">
+												Daniel					</h5>
+					<div class="qode-comment-date">20/07/2022</div>
+				</div>
+									<div class="qode-text-holder" id="comment-16762">
+						<p>Y ahora donde meto eso?</p>
+					</div>
+				
+			</div>
+		</div>
+				</li><!-- #comment-## -->
+					</ul>
+				</div>
+			</div>
+					</div>
+		
+	<div class="qode-comment-form">
+		<div class="qode-comment-form-inner">
+				<div id="respond" class="comment-respond">
+		<h4 id="reply-title" class="comment-reply-title">Escribe un comentario <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#respond" style="display:none;">cancel reply</a></small></h4><form action="https://www.espai.es/blog/wp-comments-post.php" method="post" id="commentform" class="comment-form"><textarea id="comment" placeholder="Tu comentario" name="comment" cols="45" rows="6" aria-required="true"></textarea><div class="three_columns clearfix"><div class="column1"><div class="column_inner"><input id="author" name="author" placeholder="Your Name" type="text" value="" aria-required="true" wfd-id="id0"></div></div>
+<div class="column2"><div class="column_inner"><input id="email" name="email" placeholder="Your Email" type="text" value="" aria-required="true" wfd-id="id1"></div></div>
+<div class="column3"><div class="column_inner"><input id="url" name="url" placeholder="Website" type="text" value="" size="30" maxlength="200" wfd-id="id2"></div></div></div>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" wfd-id="id3"> <label for="wp-comment-cookies-consent">Guarda mi nombre, correo electrónico y web en este navegador para la próxima vez que comente.</label></p>
+<div class="gglcptch gglcptch_v2"><div id="gglcptch_recaptcha_849235522" class="gglcptch_recaptcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-7oyx8341qe6z" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./whatsapp_files/anchor.html"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./whatsapp_files/saved_resource(1).html"></iframe></div>
+				<noscript>
+					<div style="width: 302px;">
+						<div style="width: 302px; height: 422px; position: relative;">
+							<div style="width: 302px; height: 422px; position: absolute;">
+								<iframe src="https://www.google.com/recaptcha/api/fallback?k=6Lekpa4ZAAAAAD4zWF8UV8taoEN9T7C_wMu2shrE" frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;"></iframe>
+							</div>
+						</div>
+						<div style="border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px; height: 60px; width: 300px;">
+							<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px !important; height: 40px !important; border: 1px solid #c1c1c1 !important; margin: 10px 25px !important; padding: 0px !important; resize: none !important;"></textarea>
+						</div>
+					</div>
+				</noscript></div><p class="form-submit"><input name="submit" type="submit" id="submit_comment" class="submit" value="Escribe un comentario" wfd-id="id4"> <input type="hidden" name="comment_post_ID" value="12747" id="comment_post_ID" wfd-id="id5">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0" wfd-id="id6">
+</p><p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1706052231120" wfd-id="id7"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+			</div>
+	</div>
+	</div>
+                                                </div>
+                                            </div>
+                                            <div class="column2">
+													<div class="column_inner">
+		<aside class="sidebar">
+							
+			<div class="widget widget_block widget_search"><form role="search" method="get" action="https://www.espai.es/blog/" class="wp-block-search__button-inside wp-block-search__icon-button wp-block-search"><label for="wp-block-search__input-1" class="wp-block-search__label">Buscador</label><div class="wp-block-search__inside-wrapper "><input type="search" id="wp-block-search__input-1" class="wp-block-search__input wp-block-search__input " name="s" value="" placeholder="" required="" wfd-id="id8"><button type="submit" class="wp-block-search__button has-icon wp-element-button" aria-label="Buscar"><svg class="search-icon" viewBox="0 0 24 24" width="24" height="24">
+					<path d="M13.5 6C10.5 6 8 8.5 8 11.5c0 1.1.3 2.1.9 3l-3.4 3 1 1.1 3.4-2.9c1 .9 2.2 1.4 3.6 1.4 3 0 5.5-2.5 5.5-5.5C19 8.5 16.5 6 13.5 6zm0 9.5c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"></path>
+				</svg></button></div></form></div><div class="widget widget_block"><p><a href="https://espai.es/curso/curso-crear-paginas-web/" target="_blank" rel="noreferrer noopener"><img decoding="async" src="./whatsapp_files/cursos-web.jpg" alt=""></a></p>
+<h3 style="margin: 5px 0;"><a href="https://espai.es/curso/curso-crear-paginas-web/" target="_blank" rel="noreferrer noopener">CURSO CREACIÓN PÁGINAS WEB<br> FRONTEND DEVELOPER</a></h3>
+<p>Con lo aprendido en este curso podrás empezar una carrera de diseñador web y desarrollar proyectos web de todo tipo, ya sea con WordPress o en código HTML y CSS.</p></div><div class="widget widget_block"><p><a href="https://espai.es/curso/curso-fullstack-developer/" target="_blank" rel="noreferrer noopener"><img decoding="async" src="./whatsapp_files/cursos-fullstack.jpg" alt=""></a></p>
+<h3 style="margin: 5px 0;"><a href="https://espai.es/curso/curso-fullstack-developer/" target="_blank" rel="noreferrer noopener">CURSO FULLSTACK DEVELOPER</a></h3>
+<p>Serás capaz de desarrollar tanto en el lado cliente (frontend) con JavaScript, como en el lado servidor (backend) con PHP y con acceso a bases de datos SQL.</p></div>		</aside>
+	</div>
+                                            </div>
+                                        </div>
+										                                            </div>
+											                                </div>
+																
+
+										
+	</div>
+</div>
+
+
+
+	<footer>
+		<div class="footer_inner clearfix">
+				<div class="footer_top_holder">
+            			<div class="footer_top">
+								<div class="container">
+					<div class="container_inner">
+																	<div class="four_columns clearfix">
+								<div class="column1 footer_col1">
+									<div class="column_inner">
+										<div class="widget qode-news-widget qode-news-layout1-widget"><h5>Latest Posts</h5><div class="qode-news-holder qode-layout1 qode-news-columns-1 qode-nl-normal-space qode-left-alignment" data-post-status="publish" data-ignore-sticky-posts="1" data-posts-per-page="2" data-order="ASC" data-paged="1" data-max-num-pages="264" data-next-page="2" data-title-tag="h5" data-image-size="portfolio-landscape" data-display-categories="no" data-display-excerpt="no" data-display-date="yes" data-date-format="difference" data-display-author="no" data-display-share="no" data-display-hot-trending-icons="no" data-layout="qode_layout1"><div class="qode-news-list-inner-holder" data-number-of-items="1"><div class="qode-news-item qode-layout1-item">
+		<div class="qode-ni-content">
+        		
+<h5 itemprop="name" class="entry-title qode-post-title">
+    <a itemprop="url" href="https://www.espai.es/blog/2011/05/17-de-mayo-el-dia-de-internet/" title="17 de Mayo, el Día de Internet">
+        17 de Mayo, el Día de Internet    </a>
+</h5>			<div itemprop="dateCreated" class="qode-post-info-date entry-date published updated">
+	    	        <a itemprop="url" href="https://www.espai.es/blog/2011/05/">
+	            <i class="dripicons-alarm"></i>
+    	13 años ago        </a>
+	    <meta itemprop="interactionCount" content="UserComments: 4">
+	</div>
+        			</div>
+</div><div class="qode-news-item qode-layout1-item">
+		<div class="qode-ni-content">
+        		
+<h5 itemprop="name" class="entry-title qode-post-title">
+    <a itemprop="url" href="https://www.espai.es/blog/2011/05/crea-cajas-en-css3-de-una-forma-sencilla/" title="Crea cajas en CSS3 de una forma sencilla">
+        Crea cajas en CSS3 de una forma sencilla    </a>
+</h5>			<div itemprop="dateCreated" class="qode-post-info-date entry-date published updated">
+	    	        <a itemprop="url" href="https://www.espai.es/blog/2011/05/">
+	            <i class="dripicons-alarm"></i>
+    	13 años ago        </a>
+	    <meta itemprop="interactionCount" content="UserComments: 4">
+	</div>
+        			</div>
+</div></div></div></div><div id="custom_html-9" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">	<div class="vc_empty_space" style="height: 12px"><span class="vc_empty_space_inner">
+			<span class="empty_space_image"></span>
+		</span></div>
+
+</div></div>									</div>
+								</div>
+								<div class="column2 footer_col2">
+									<div class="column_inner">
+										<div id="recent-comments-1" class="widget widget_recent_comments"><h5>Recent Comments</h5><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Ricardo</span> en <a href="https://www.espai.es/blog/2020/09/personalizar-el-aspecto-del-elemento-input-de-tipo-file/#comment-17583">Personalizar el aspecto del elemento input de tipo file</a></li><li class="recentcomments"><span class="comment-author-link">Andres</span> en <a href="https://www.espai.es/blog/2022/02/como-hacer-un-sistema-de-navegacion-por-pestanas-solo-con-html-y-css/#comment-17500">Cómo hacer un sistema de navegación por pestañas solo con HTML y CSS</a></li><li class="recentcomments"><span class="comment-author-link">David Sánchez</span> en <a href="https://www.espai.es/blog/2020/01/calco-manual-en-adobe-illustrator/#comment-17412">Calco manual en Adobe Illustrator</a></li></ul></div>									</div>
+								</div>
+								<div class="column3 footer_col3">
+									<div class="column_inner">
+																			</div>
+								</div>
+								<div class="column4 footer_col4">
+									<div class="column_inner">
+										<div id="text-9" class="widget widget_text"><h5>Disclaimer</h5>			<div class="textwidget"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum facilisis ullamcorper. Donec rhoncus condimentum gravida. In in ipsum eget</p>
+</div>
+		</div><div id="custom_html-10" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">	<div class="vc_empty_space" style="height: 33px"><span class="vc_empty_space_inner">
+			<span class="empty_space_image"></span>
+		</span></div>
+
+
+<div class="vc_row wpb_row section vc_row-fluid " style=" text-align:left;"><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-5"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h5><span style="color: #ffffff;"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#">Features</a></span></h5>
+
+		</div> 
+	</div> 	<div class="vc_empty_space" style="height: 9px"><span class="vc_empty_space_inner">
+			<span class="empty_space_image"></span>
+		</span></div>
+
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h5><span style="color: #ffffff;"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#">Archive</a></span></h5>
+
+		</div> 
+	</div> 	<div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner">
+			<span class="empty_space_image"></span>
+		</span></div>
+
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-7"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h5><span style="color: #ffffff;"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#">Stories</a></span></h5>
+
+		</div> 
+	</div> 	<div class="vc_empty_space" style="height: 12px"><span class="vc_empty_space_inner">
+			<span class="empty_space_image"></span>
+		</span></div>
+
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h5><span style="color: #ffffff;"><a href="https://www.espai.es/blog/2021/12/como-agregar-un-boton-whatsapp-clic-para-chatear-a-tu-website-con-html-y-css/#">Interviews</a></span></h5>
+
+		</div> 
+	</div> 	<div class="vc_empty_space" style="height: 9px"><span class="vc_empty_space_inner">
+			<span class="empty_space_image"></span>
+		</span></div>
+
+</div></div></div></div></div></div></div>									</div>
+								</div>
+							</div>
+															</div>
+				</div>
+							</div>
+					</div>
+							<div class="footer_bottom_holder">
+                								<div class="container">
+					<div class="container_inner">
+										<div class="three_columns footer_bottom_columns clearfix">
+					<div class="column1 footer_bottom_column">
+						<div class="column_inner">
+							<div class="footer_bottom">
+								<div class="textwidget custom-html-widget">2022 © Copyright <a target="_blank" href="https://www.espai.es/" title="Escola Espai" rel="noopener">Escola Espai</a>
+</div>							</div>
+						</div>
+					</div>
+					<div class="column2 footer_bottom_column">
+						<div class="column_inner">
+							<div class="footer_bottom">
+															</div>
+						</div>
+					</div>
+					<div class="column3 footer_bottom_column">
+						<div class="column_inner">
+							<div class="footer_bottom">
+								<div class="textwidget custom-html-widget"><a target="_blank" href="https://www.espai.es/index.php/condiciones-de-uso" title="Condiciones de Uso" rel="noopener">Condiciones de Uso</a>	| 	
+<a target="_blank" href="https://www.espai.es/index.php/privacidad" title="Política de Privacidad" rel="noopener">Política de Privacidad</a> | 
+<a target="_blank" href="https://www.espai.es/index.php/politica-de-cookies" title="Política de Cookies" rel="noopener">Política de Cookies</a></div>							</div>
+						</div>
+					</div>
+				</div>
+									</div>
+			</div>
+						</div>
+				</div>
+	</footer>
+		
+</div>
+</div>
+	<div style="display:none">
+			<div class="grofile-hash-map-c2b06d7094eaf47ea192aecb098f61dd">
+		</div>
+		<div class="grofile-hash-map-961a6459ab4f7a2e05db5407ab455262">
+		</div>
+		<div class="grofile-hash-map-968a8cc502b3a5351564a900db37a968">
+		</div>
+		<div class="grofile-hash-map-e9b0dee9eb92434129364ca1df590f3c">
+		</div>
+		</div>
+		<script type="text/html" id="wpb-modifications"></script><link rel="stylesheet" id="gglcptch-css" href="./whatsapp_files/gglcptch.css" type="text/css" media="all">
+<script type="text/javascript" id="code-prettify-js-before">
+var codePrettifyLoaderBaseUrl = "https:\/\/www.espai.es\/blog\/wp-content\/plugins\/code-prettify\/prettify";
+</script>
+
+<script type="text/javascript" src="./whatsapp_files/index.js.descarga" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.espai.es\/blog\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./whatsapp_files/index(1).js.descarga" id="contact-form-7-js"></script>
+<script type="text/javascript" src="./whatsapp_files/gprofiles.js.descarga" id="grofiles-cards-js"></script>
+<script type="text/javascript" id="wpgroho-js-extra">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./whatsapp_files/wpgroho.js.descarga" id="wpgroho-js"></script>
+<script type="text/javascript" id="qode-like-js-extra">
+/* <![CDATA[ */
+var qodeLike = {"ajaxurl":"https:\/\/www.espai.es\/blog\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./whatsapp_files/qode-like.min.js.descarga" id="qode-like-js"></script>
+<script type="text/javascript" id="default-js-extra">
+/* <![CDATA[ */
+var QodeAdminAjax = {"ajaxurl":"https:\/\/www.espai.es\/blog\/wp-admin\/admin-ajax.php"};
+var qodeGlobalVars = {"vars":{"qodeAddingToCartLabel":"Adding to Cart..."}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./whatsapp_files/default.min.js.descarga" id="default-js"></script>
+<script type="text/javascript" src="./whatsapp_files/news.min.js.descarga" id="qode_news_script-js"></script>
+<script type="text/javascript" src="./whatsapp_files/core.min.js.descarga" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="./whatsapp_files/accordion.min.js.descarga" id="jquery-ui-accordion-js"></script>
+<script type="text/javascript" src="./whatsapp_files/menu.min.js.descarga" id="jquery-ui-menu-js"></script>
+<script type="text/javascript" src="./whatsapp_files/regenerator-runtime.min.js.descarga" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="./whatsapp_files/wp-polyfill.min.js.descarga" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="./whatsapp_files/dom-ready.min.js.descarga" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="./whatsapp_files/hooks.min.js.descarga" id="wp-hooks-js"></script>
+<script type="text/javascript" src="./whatsapp_files/i18n.min.js.descarga" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2023-02-27 22:40:37+0000","generator":"GlotPress\/4.0.0-alpha.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Notifications":["Avisos"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+</script>
+<script type="text/javascript" src="./whatsapp_files/a11y.min.js.descarga" id="wp-a11y-js"></script>
+<script type="text/javascript" id="jquery-ui-autocomplete-js-extra">
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No se han encontrado resultados.","oneResult":"1 resultado encontrado. Utiliza las teclas de flecha arriba y abajo para navegar.","manyResults":"%d resultados encontrados. Utiliza las teclas arriba y abajo para navegar.","itemSelected":"Elemento seleccionado."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./whatsapp_files/autocomplete.min.js.descarga" id="jquery-ui-autocomplete-js"></script>
+<script type="text/javascript" src="./whatsapp_files/controlgroup.min.js.descarga" id="jquery-ui-controlgroup-js"></script>
+<script type="text/javascript" src="./whatsapp_files/checkboxradio.min.js.descarga" id="jquery-ui-checkboxradio-js"></script>
+<script type="text/javascript" src="./whatsapp_files/button.min.js.descarga" id="jquery-ui-button-js"></script>
+<script type="text/javascript" src="./whatsapp_files/datepicker.min.js.descarga" id="jquery-ui-datepicker-js"></script>
+<script type="text/javascript" id="jquery-ui-datepicker-js-after">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Cerrar","currentText":"Hoy","monthNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"monthNamesShort":["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"],"nextText":"Siguiente","prevText":"Anterior","dayNames":["domingo","lunes","martes","mi\u00e9rcoles","jueves","viernes","s\u00e1bado"],"dayNamesShort":["Dom","Lun","Mar","Mi\u00e9","Jue","Vie","S\u00e1b"],"dayNamesMin":["D","L","M","X","J","V","S"],"dateFormat":"dd\/mm\/yy","firstDay":1,"isRTL":false});});
+</script>
+<script type="text/javascript" src="./whatsapp_files/mouse.min.js.descarga" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="./whatsapp_files/resizable.min.js.descarga" id="jquery-ui-resizable-js"></script>
+<script type="text/javascript" src="./whatsapp_files/draggable.min.js.descarga" id="jquery-ui-draggable-js"></script>
+<script type="text/javascript" src="./whatsapp_files/dialog.min.js.descarga" id="jquery-ui-dialog-js"></script>
+<script type="text/javascript" src="./whatsapp_files/droppable.min.js.descarga" id="jquery-ui-droppable-js"></script>
+<script type="text/javascript" src="./whatsapp_files/progressbar.min.js.descarga" id="jquery-ui-progressbar-js"></script>
+<script type="text/javascript" src="./whatsapp_files/selectable.min.js.descarga" id="jquery-ui-selectable-js"></script>
+<script type="text/javascript" src="./whatsapp_files/sortable.min.js.descarga" id="jquery-ui-sortable-js"></script>
+<script type="text/javascript" src="./whatsapp_files/slider.min.js.descarga" id="jquery-ui-slider-js"></script>
+<script type="text/javascript" src="./whatsapp_files/spinner.min.js.descarga" id="jquery-ui-spinner-js"></script>
+<script type="text/javascript" src="./whatsapp_files/tooltip.min.js.descarga" id="jquery-ui-tooltip-js"></script>
+<script type="text/javascript" src="./whatsapp_files/tabs.min.js.descarga" id="jquery-ui-tabs-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect.min.js.descarga" id="jquery-effects-core-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-blind.min.js.descarga" id="jquery-effects-blind-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-bounce.min.js.descarga" id="jquery-effects-bounce-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-clip.min.js.descarga" id="jquery-effects-clip-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-drop.min.js.descarga" id="jquery-effects-drop-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-explode.min.js.descarga" id="jquery-effects-explode-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-fade.min.js.descarga" id="jquery-effects-fade-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-fold.min.js.descarga" id="jquery-effects-fold-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-highlight.min.js.descarga" id="jquery-effects-highlight-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-pulsate.min.js.descarga" id="jquery-effects-pulsate-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-size.min.js.descarga" id="jquery-effects-size-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-scale.min.js.descarga" id="jquery-effects-scale-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-shake.min.js.descarga" id="jquery-effects-shake-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-slide.min.js.descarga" id="jquery-effects-slide-js"></script>
+<script type="text/javascript" src="./whatsapp_files/effect-transfer.min.js.descarga" id="jquery-effects-transfer-js"></script>
+<script type="text/javascript" src="./whatsapp_files/plugins.js.descarga" id="plugins-js"></script>
+<script type="text/javascript" src="./whatsapp_files/jquery.carouFredSel-6.2.1.min.js.descarga" id="carouFredSel-js"></script>
+<script type="text/javascript" src="./whatsapp_files/lemmon-slider.min.js.descarga" id="lemmonSlider-js"></script>
+<script type="text/javascript" src="./whatsapp_files/jquery.fullPage.min.js.descarga" id="one_page_scroll-js"></script>
+<script type="text/javascript" src="./whatsapp_files/jquery.mousewheel.min.js.descarga" id="mousewheel-js"></script>
+<script type="text/javascript" src="./whatsapp_files/jquery.touchSwipe.min.js.descarga" id="touchSwipe-js"></script>
+<script type="text/javascript" src="./whatsapp_files/isotope.pkgd.min.js.descarga" id="isotope-js"></script>
+<script type="text/javascript" src="./whatsapp_files/packery-mode.pkgd.min.js.descarga" id="packery-js"></script>
+<script type="text/javascript" src="./whatsapp_files/jquery.stretch.js.descarga" id="stretch-js"></script>
+<script type="text/javascript" src="./whatsapp_files/imagesloaded.js.descarga" id="imagesLoaded-js"></script>
+<script type="text/javascript" src="./whatsapp_files/rangeslider.min.js.descarga" id="rangeSlider-js"></script>
+<script type="text/javascript" src="./whatsapp_files/default_dynamic.js.descarga" id="default_dynamic-js"></script>
+<script type="text/javascript" src="./whatsapp_files/custom_js.js.descarga" id="custom_js-js"></script>
+<script type="text/javascript" src="./whatsapp_files/comment-reply.min.js.descarga" id="comment-reply-js"></script>
+<script type="text/javascript" src="./whatsapp_files/js_composer_front.min.js.descarga" id="wpb_composer_front_js-js"></script>
+<script type="text/javascript" src="./whatsapp_files/qode-news-like.js.descarga" id="qode-news-like-js"></script>
+<script type="text/javascript" data-cfasync="false" async="async" defer="defer" src="./whatsapp_files/api.js.descarga" id="gglcptch_api-js"></script>
+<script type="text/javascript" id="gglcptch_script-js-extra">
+/* <![CDATA[ */
+var gglcptch = {"options":{"version":"v2","sitekey":"6Lekpa4ZAAAAAD4zWF8UV8taoEN9T7C_wMu2shrE","error":"<strong>Advertencia<\/strong>:&nbsp;Se ha encontrado m\u00e1s de un reCAPTCHA en el formulario actual. Por favor, elimina todos los campos innecesarios de reCAPTCHA para que funcione correctamente.","disable":0,"theme":"light"},"vars":{"visibility":false}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./whatsapp_files/script.js.descarga" id="gglcptch_script-js"></script>
+	<script src="./whatsapp_files/e-202404.js.descarga" defer=""></script>
+	<script>
+		_stq = window._stq || [];
+		_stq.push([ 'view', {v:'ext',blog:'21307544',post:'12747',tz:'2',srv:'www.espai.es',j:'1:11.9.2'} ]);
+		_stq.push([ 'clickTrackerInit', '21307544', '12747' ]);
+	</script>
+<img src="./whatsapp_files/g.gif" alt="" width="6" height="5" id="wpstats"><p id="a11y-speak-intro-text" class="a11y-speak-intro-text" style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;" hidden="hidden">Avisos</p><div id="a11y-speak-assertive" class="a11y-speak-region" style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;" aria-live="assertive" aria-relevant="additions text" aria-atomic="true"></div><div id="a11y-speak-polite" class="a11y-speak-region" style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;" aria-live="polite" aria-relevant="additions text" aria-atomic="true"></div><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="el desafío de recaptcha caduca dentro de dos minutos" name="c-7oyx8341qe6z" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./whatsapp_files/bframe.html" style="width: 100%; height: 100%;"></iframe></div></div></body></html>
